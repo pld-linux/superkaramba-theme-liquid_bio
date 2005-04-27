@@ -1,0 +1,23 @@
+--- superkaramba-theme-liquid_bio-0.1/bio.theme.old	2005-04-27 21:58:36.000000000 +0200
++++ superkaramba-theme-liquid_bio-0.1/bio.theme	2005-04-27 22:01:01.000000000 +0200
+@@ -3,15 +3,15 @@
+ 
+ karamba x=500 y=200 w=235 h=195 locked=true interval=10000000000000
+ 
+-text x=0 y=0 sensor=program program="php -f /home/stasb/programi/karamba/bio/getbio.php" interval=10000000000000
++text x=0 y=0 sensor=program program="php -f /usr/share/themes/superkaramba/liquid_bio/getbio.php" interval=10000000000000
+ 
+ image x=0 y=0 path="bio_back.png"
+ 
+-bar vertical=true min=0 max=200 x=19 y=47 w=37 h=118 path="bio_phy.png" sensor=program program="head -1 /home/stasb/programi/karamba/bio/biodump.txt | tail -1" interval=0
++bar vertical=true min=0 max=200 x=19 y=47 w=37 h=118 path="bio_phy.png" sensor=program program="head -1 /usr/share/themes/superkaramba/liquid_bio/biodump.txt | tail -1" interval=0
+ 
+-bar vertical=true min=0 max=200 x=68 y=47 w=37 h=118 sensor=program program="head -2 /home/stasb/programi/karamba/bio/biodump.txt | tail -1" path="bio_emo.png" interval=0
++bar vertical=true min=0 max=200 x=68 y=47 w=37 h=118 sensor=program program="head -2 /usr/share/themes/superkaramba/liquid_bio/biodump.txt | tail -1" path="bio_emo.png" interval=0
+ 
+-bar vertical=true min=0 max=200 x=117 y=47 w=37 h=118 sensor=program program="head -3 /home/stasb/programi/karamba/bio/biodump.txt | tail -1" path="bio_int.png" interval=0
++bar vertical=true min=0 max=200 x=117 y=47 w=37 h=118 sensor=program program="head -3 /usr/share/themes/superkaramba/liquid_bio/biodump.txt | tail -1" path="bio_int.png" interval=0
+ 
+-bar vertical=true min=0 max=200 x=168 y=47 w=37 h=118 sensor=program program="head -4 /home/stasb/programi/karamba/bio/biodump.txt | tail -1" path="bio_avg.png" interval=0
++bar vertical=true min=0 max=200 x=168 y=47 w=37 h=118 sensor=program program="head -4 /usr/share/themes/superkaramba/liquid_bio/biodump.txt | tail -1" path="bio_avg.png" interval=0
+ 
