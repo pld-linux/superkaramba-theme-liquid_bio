@@ -9,7 +9,7 @@ License:	GPL
 Group:		Themes
 Source0:	http://kde-look.org/content/files/23449-liquid_bio.tar.gz
 # Source0-md5:	cadd07d52deb196f91d782e851d5e8e1
-#Patch0:		ubermon.theme.patch
+Patch0:		bio.theme.patch
 URL:		http://www.kde-look.org/content/show.php?content=23449
 Requires:	superkaramba
 BuildArch:	noarch
@@ -28,6 +28,7 @@ Pokazuje Twój biorytm. Nie wiem czy jest to wierne.
 
 %prep
 %setup -q -c
+%patch0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
