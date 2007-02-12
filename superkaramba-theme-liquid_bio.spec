@@ -1,7 +1,7 @@
 %define		theme	liquid_bio
 
 Summary:	superkaramba - liquid_bio theme
-Summary(pl):	superkaramba - motyw liquid_bio
+Summary(pl.UTF-8):   superkaramba - motyw liquid_bio
 Name:		superkaramba-theme-%{theme}
 Version:	0.1
 Release:	1
@@ -20,10 +20,10 @@ Based on bioramba by arutkowski
 (http://www.kde-look.org/content/show.php?content=23437).
 Shows one's biorhythm. I don't know if it's accurate :-)
 
-%description -l pl
+%description -l pl.UTF-8
 Bazuje na bioramba arutkowskiego
 (http://www.kde-look.org/content/show.php?content=23437).
-Pokazuje Twój biorytm. Nie wiem czy jest to wierne.
+Pokazuje TwÃ³j biorytm. Nie wiem czy jest to wierne.
 
 
 %prep
