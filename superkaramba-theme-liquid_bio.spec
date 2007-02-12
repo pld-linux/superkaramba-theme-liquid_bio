@@ -1,7 +1,7 @@
 %define		theme	liquid_bio
 
 Summary:	superkaramba - liquid_bio theme
-Summary(pl.UTF-8):   superkaramba - motyw liquid_bio
+Summary(pl.UTF-8):	superkaramba - motyw liquid_bio
 Name:		superkaramba-theme-%{theme}
 Version:	0.1
 Release:	1
